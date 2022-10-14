@@ -1,0 +1,17 @@
+server:
+    error:
+        include-message: always
+        include-binding-errors: always
+
+spring:
+    datasource:
+        platform: mysql
+        password: root
+        url: jdbc:mysql://localhost:8000/registration
+        usrename: root
+    jpa:
+        hibernate:
+            ddl-auto: create-drop
+        properties:
+            hibernate:
+
